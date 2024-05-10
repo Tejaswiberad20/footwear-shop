@@ -1,0 +1,74 @@
+
+body{
+    background: url(https://img.freepik.com/free-vector/classic-shoes-realistic-composition_1284-65193.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+
+}
+.head{
+    color: #ff1a75;
+    text-align: center;
+    font-family: "Sedan SC", serif;
+    margin-top: 50px;
+}
+
+.form-body{
+    height: 400px;
+    width: 400px;
+    border: 1px solid #ff1a75;
+    box-shadow: 0 0 3px 1px #ff1a75;
+    border-radius: 20px;
+    margin: 60px auto;
+    padding: 5px 10px;
+
+}
+.text{
+    text-align: center;
+    font-family: "Sedan SC", serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ff1a75;
+    margin-top: 30px;
+
+}
+.input{
+    margin: 0px auto;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+.login-btn{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #ff1a75;
+    display: block;
+    margin: 20px auto;
+    color: #fff;
+    border: none;
+    
+}
+.login-btn:hover{
+    border: 1px solid #ff1a75;
+    border-radius: 5px;
+    background-color: #fff;
+    color:#ff1a75
+}
+.ac{
+    text-align: center;
+    font-family: "Sedan SC", serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.link{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #ff1a75;
+    font-family: "Sedan SC", serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
