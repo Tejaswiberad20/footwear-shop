@@ -14,7 +14,7 @@ body{
     margin-top: 50px;
 }
 .form-body{
-    height: 730px;
+    height: 750px;
     width: 500px;
     border: 1px solid #ff1a75;
     box-shadow: 0 0 3px 1px #ff1a75;
@@ -55,6 +55,14 @@ body{
     border-radius: 5px;
     background-color: #fff;
     color:#ff1a75
+}
+.link{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #ff1a75;
+    font-family: "Sedan SC", serif;
+    font-size: 20px;
+    font-weight: bolder;
 }
 .ac-text{
     text-align: center;
