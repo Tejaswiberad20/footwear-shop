@@ -151,4 +151,24 @@
   width: 30px;
   height: auto;
   }
-  
+  .img{
+    height: 50px;
+    margin: 10px;
+    background-color: #fff;
+    border: solid 1px #000;
+    border-radius: 5px;
+}
+.text{
+    text-align: center;
+}
+.active{
+    border-radius: 50px;
+}
+.dark{
+    background-color: #000;
+    color: #fff;
+}
+.light{
+    background-color: #fff;
+    color: #000;
+}
