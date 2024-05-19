@@ -69,16 +69,16 @@
 <h1 class="head">Signup Form</h1>
   <form class="form-body">
     <p class="text">UserName:</p>
-    <input type="text"placeholder="Enter User name"required class="input">
+    <input type="text"placeholder="Enter User name"required class="input"id="name">
     <p class="text">Password:</p>
-    <input type="password"placeholder="Password"required class="input">
+    <input type="password"placeholder="Password"required class="input"id="password">
     <p class="text">Email Id:</p>
-    <input type="email"placeholder="Enter Email id"required class="input">
+    <input type="email"placeholder="Enter Email id"required class="input"id="email">
     <p class="text">Mobile No:</p>
-    <input type="text"placeholder="Enter Mobile No"required class="input"> 
+    <input type="text"placeholder="Enter Mobile No"required class="input"id="mob"> 
     <p class="text">Address:</p>
-    <input type="textarea"placeholder="Enter your Address"required class="input">
-    <a href="../index.html"class="link"><button type="button"class="signup-btn">Signup</button></a>
+    <input type="textarea"placeholder="Enter your Address"required class="input"id="addr">
+    <a href=""class="link"><button type="button"class="signup-btn" onclick=" validateLogin() ">Signup</button></a>
     <p class="ac-text">Already Have An Account<span><a href="login.html" class="link">Login</a></span></p>
 
   </form>
@@ -165,6 +165,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <script src="../js/signup.js"></script>
 
 </body>
 
