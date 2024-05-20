@@ -66,3 +66,11 @@ background-color: antiquewhite;
     border-radius: 10px;
     box-shadow:0 0 12px 1px  #ff1a75;
 }
+.time{
+    border: #ff1a75;
+    border-radius: 20px;
+    box-shadow:0 0 6px 1px #ff1a75;
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+}
