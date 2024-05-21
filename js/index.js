@@ -24,3 +24,12 @@ function changeimg(imgname){
     mainimg.src = imgname;
 }
 
+function like(){
+
+			
+    const like = document.getElementById('s1');
+    {
+        like.src = './images/product/heart.png';
+        
+    }
+  }
