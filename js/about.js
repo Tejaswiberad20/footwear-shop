@@ -14,45 +14,30 @@ function clock() {
     sec.innerText = (date.getSeconds() < 10 ? "0" : "") + date.getSeconds();
     ampm.innerText = date.getHours() >= 12 ? 'PM' : 'AM';
 
-    const openclose = document.getElementById('openclose');
-    if (date.getHours() >= 7 && date.getHours() < 18) {
-        openclose.innerText = "Now OPENED";
-    }
-    else {
-        openclose.innerText = "Now CLOSED";
-    }
+    
 
 }
 setInterval(clock, 1000);
 clock();
 
-const dayElement = document.getElementById('b-day');
-const hourElement = document.getElementById('b-hour');
-const minElement = document.getElementById('b-min');
-const secElement = document.getElementById('b-sec');
-function countdown() {
-    const countDate = new Date('April 30, 2024 00:00:00').getTime();
+function darkMmode(){
+    const imgdark = document.getElementById('imgdark');
+    imgdark.classList.add('active');
+    const imglight=document.getElementById('imglight');
+    imglight.classList.remove('active');
 
-    const now = new Date().getTime();
-    const gap = countDate - now;
-
-    const sec = 1000;
-    const min = sec * 60;
-
-    const hour = min * 60;
-    const day = hour * 24;
-
-    const textDay = Math.floor(gap / day);
-    const textHour = Math.floor((gap % day) / hour);
-    const textMin = Math.floor((gap % hour) / min);
-    const textSec = Math.floor((gap % min) / sec);
-
-    dayElement.innerText = textDay;
-    hourElement.innerText = textHour;
-    minElement.innerText = textMin;
-    secElement.innerText = textSec;
+    const bodyelement=document.getElementById('body');
+    bodyelement.className="dark";
 
 
 }
-setInterval(countdown, 1000);
-countdown();
+function lightMode(){
+    const imgdark = document.getElementById('imgdark');
+    imgdark.classList.remove('active');
+    const imglight=document.getElementById('imglight');
+    imglight.classList.add('active');
+
+    const bodyelement=document.getElementById('body');
+    bodyelement.className="light";
+
+}
