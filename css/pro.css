@@ -1,0 +1,56 @@
+.main-img{
+    height: 350px;
+    width: 800px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-size: cover;
+}
+.mainimg{
+    width: 770px;
+    height: 350px;
+    border: 20px solid #fff;
+    padding: 10px 20px;
+    display: block;
+    margin: 0px auto;
+
+}
+
+.preview{
+height: 80px ;
+width: 80px;
+padding: 10px 20px;
+object-fit: cover;
+width: 100px;
+border-radius: 5px;
+border:1px solid #ff1a75;
+margin: 10px;
+
+}
+
+.pro{
+    display: flex;
+    margin-top: 20px;
+    background-color: beige;
+}
+.pro-info{
+    width: 1000px;
+}
+.pro-name{
+    color:  #ff1a75;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #ff1a75;
+    color: #fff;
+    border: none;
+}
+.btn:hover{
+    background-color: #fff;
+    border: 1px solid #ff1a75;
+
+}
+.like-img{
+    height: 50px;
+    margin-left:20px ;
+    width: 50px;
+}

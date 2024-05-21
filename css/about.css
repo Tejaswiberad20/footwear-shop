@@ -41,6 +41,7 @@ margin: 10px;
     border-radius: 10px;
     padding: 10px 20px;
     margin: 50px auto;
+    
 }
 .text{
     color: #ff1a75;
@@ -63,6 +64,9 @@ background-color: antiquewhite;
 }
 .sre-content{
     border: solid 0px #ff1a75;
+    background: url('https://media.licdn.com/dms/image/D5612AQFkjncMt-kEeA/article-cover_image-shrink_720_1280/0/1690362102037?e=2147483647&v=beta&t=YBucjcFvO0oMoRZCkS5wHCYJOP5GcsHEkMO0DuGHdHs');
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     box-shadow:0 0 12px 1px  #ff1a75;
 }
