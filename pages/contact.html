@@ -11,10 +11,100 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="./js/index.js">
 
+<style>
+  
+body{
+ 
 
+}
+.head{
+    color: #ff1a75;
+    text-align: center;
+    font-family: "Sedan SC", serif;
+    margin-top: 50px;
+}
+.form{
+  background: url(https://img.freepik.com/free-vector/classic-shoes-realistic-composition_1284-65193.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+
+}
+.form-body{
+    height: 400px;
+    width: 400px;
+    border: 1px solid #ff1a75;
+    box-shadow: 0 0 3px 1px #ff1a75;
+    border-radius: 20px;
+    margin: 60px auto;
+    padding: 5px 10px;
+
+}
+.text{
+    text-align: center;
+    font-family: "Sedan SC", serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ff1a75;
+    margin-top: 30px;
+
+}
+.input{
+    margin: 0px auto;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+.login-btn{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #ff1a75;
+    display: block;
+    margin: 20px auto;
+    color: #fff;
+    border: none;
+    
+}
+.login-btn:hover{
+    border: 1px solid #ff1a75;
+    border-radius: 5px;
+    background-color: #fff;
+    color:#ff1a75
+}
+.ac{
+    text-align: center;
+    font-family: "Sedan SC", serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.link{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #ff1a75;
+    font-family: "Sedan SC", serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.map{
+  display: block;
+  margin: 10px auto;
+}
+.location{
+    color: #ff1a75;
+    font-family: "Sedan SC", serif;
+    margin: 5px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: bolder;
+}
+</style>
 </head>
 
-<body>
+<body id="body">
   <div class="background">
     <nav class="navbar navbar-expand-lg nav">
       <div class="container-fluid">
@@ -64,10 +154,24 @@
       </div>
     </nav>
   </div>
-
-
-
-
+  <div class="form">
+  <h1 class="head">Contact
+  </h1>
+  <div class="form-body">
+    <p class="text">UserName:</p> 
+    <input type="text"class="input" placeholder="UserName" id="name" required>
+    <p class="text">EmailID:</p> 
+    <input type="email"class="input" placeholder="EmailID" id="email">
+    <p class="text">Message:</p>
+    <input type="textarea"class="input"placeholder="Write Your content Here....."id="msg">
+   <button type="button"class="login-btn" onclick="msgsending()">send</button>
+  
+  </div>
+  </div>
+  <h3 class="location">Location</h3>
+  <div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5269.840570612874!2d74.72683973222517!3d19.097318603418067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb08834eed129%3A0xb849feba5f22f3bd!2sChoice%20Footwear!5e0!3m2!1sen!2sin!4v1716307885839!5m2!1sen!2sin" display="flex"margin="10px auto" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"class="map"></iframe>
+</div>
 
 
 
@@ -112,18 +216,7 @@
           </div>
         </div>
 
-        <div>
-          <h3 class="footer-head h4 " style="color:#ff1a75;">Company</h3>
-          <div style="display: block; align-items: center;">
-            <div><a href="#" class="h5 footer-quick-links ">Careers</a></div>
-            <div><a href="#" class="h5 footer-quick-links ">Jobs</a></div>
-            <div><a href="#" class="h5 footer-quick-links">Partnerships</a></div>
-            <div><a href="#" class="h5 footer-quick-links ">Affiliates</a></div>
-            <div><a href="#" class="h5 footer-quick-links">Terms and conditions</a></div>
-            <div><a href="#" class="h5 footer-quick-links">Privacy Policy</a></div>
-            <div><a href="#" class="h5 footer-quick-links ">Cookie Statement</a></div>
-          </div>
-        </div>
+       
 
         <div>
           <h3 class="footer-head h4 " style="color:#ff1a75;">Follow Us</h3>
@@ -158,7 +251,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-
+  <script src="../js/contact.js">
 </body>
 
 </html>
